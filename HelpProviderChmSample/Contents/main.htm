@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HelpProvider Sample</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidenav">
+        <div id="input-outer">
+            <input type="text" placeholder="Search.." id="searchInput" onkeyup="filterFunction()">
+            <div id="clear" onclick="clearSearch()">X</div>
+        </div>
+        <br />
+        <a href="#index">Introduction</a>
+        <a href="#overview">Overview</a>
+        <a href="#form" class="dropdown-btn">
+            Form
+            <b id="caret" class="fa fa-caret-down">&#8744;</b>
+        </a>
+        <div class="dropdown-container">
+            <a href="#address">Address</a>
+            <a href="#city">City</a>
+            <a href="#state">State</a>
+            <a href="#zip">Zip</a>
+        </div>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="main">
+        <iframe id="iframePages" src="index.htm" style="width:100%; height: 97vh" marginheight="0" align="top" scrolling="No" frameborder="0" hspace="0" vspace="0"></iframe>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

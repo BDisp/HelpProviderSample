@@ -1,0 +1,28 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\WindowsFormsApp1\HelpProviderChmSample.chm
+Contents file=HelpProviderChmSample.hhc
+Default Window=HelpProviderChmSample
+Default topic=Contents\index.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=HelpProviderChmSample.hhk
+Language=0x409 Inglês (Estados Unidos)
+Title=HelpProviderChmSample
+
+[WINDOWS]
+HelpProviderChmSample="HelpProvider Sample","HelpProviderChmSample.hhc","HelpProviderChmSample.hhk","Contents\index.htm",,,,,,0x3520,,0x3006,,,,,,,,0
+
+
+[FILES]
+Contents\address.htm
+Contents\city.htm
+Contents\form.htm
+Contents\index.htm
+Contents\overview.htm
+Contents\state.htm
+Contents\zip.htm
+Contents\contact.htm
+
+[INFOTYPES]
+
